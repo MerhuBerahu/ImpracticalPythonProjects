@@ -10,10 +10,10 @@ try:
             if i[::1] == i[::-1]: #if the order normaly is the same as in reverse, print the word
                 palindroms.append(i)
         print(palindroms)
-        for x in palindroms:
-            for i in words:
-                if x[::-1] == i[::1]: # but not full length, need to search letter by letter ### STUCK HERE ###
-                    print(f"x: {x} and i: {i}")
+        for x in palindroms: # for every word in palidroms list
+            for i in words:  # check every word in the words list
+                if x[::-1] == i[::1]: # if palidromes is the same as words in reverse
+                    print(f"x: {x} and i: {i}") # print
 
 
 except IOError as e: # if cant open file throw an error rather than crash
