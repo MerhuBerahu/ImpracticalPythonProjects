@@ -37,7 +37,7 @@ last = ('Appleyard', 'Bigmeat', 'Bloominshine', 'Boogerbottom',
 def randnames(): # create and return a random name
     random_first = random.choice(first)
     random_last = random.choice(first)
-    name = random_first + random_last
+    name = random_first + " " + random_last
     return name
 
 while True: # lopp to generate random names till user quits
