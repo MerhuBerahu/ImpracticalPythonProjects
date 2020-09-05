@@ -1,8 +1,8 @@
 import random
 import sys # imported for red text
 
-first = open("first.txt",'r') # open first.txt in read mode and assign to variable first
-last = open("last.txt", 'r')# open last.txt in read mode and assign to variable last
+first = open("chapter 1//first.txt",'r') # open first.txt in read mode and assign to variable first
+last = open("chapter 1//last.txt", 'r')# open last.txt in read mode and assign to variable last
 first = first.read().split(",") # create list from contents of first, with each index split by ,
 last = last.read().split(",") # create list from contents of last, with each index split by ,
 
