@@ -45,7 +45,3 @@ while True: # lopp to generate random names till user quits
     try_again = input("Press 'Enter' to generate a new random name or 'exit' to quit ")
     if try_again.lower() == "exit":
         sys.exit(0)
-
-
-
-
